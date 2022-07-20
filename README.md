@@ -3,7 +3,7 @@
 Aplicacion hecha la toma de pedidos de restaurantes, estaciones de comida rapida.
 
 # Que contiene app_restaurante_wt
-Screen's
+
 	1 - Welcome
 	
 	2 -	Login (User and password)
