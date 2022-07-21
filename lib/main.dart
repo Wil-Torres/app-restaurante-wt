@@ -1,3 +1,7 @@
+import 'package:app_restaurante_wt/otros/config_cuenta_page.dart';
+import 'package:app_restaurante_wt/otros/configuraciones_page.dart';
+import 'package:app_restaurante_wt/otros/contactenos_page.dart';
+import 'package:app_restaurante_wt/otros/pedidos_realizados_page.dart';
 import 'package:flutter/material.dart';
 import 'package:localstorage/localstorage.dart';
 
@@ -98,7 +102,8 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: const Text('Localstorage demo'),
       ),
-      body: Container(
+      body:
+          const ConfiguracionesPage(), /*Container(
           padding: const EdgeInsets.all(10.0),
           constraints: const BoxConstraints.expand(),
           child: FutureBuilder(
@@ -174,7 +179,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               );
             },
-          )),
+          )),*/
     );
   }
 
